@@ -3,7 +3,7 @@
 
 chrome.browserAction.onClicked.addListener(() => {chrome.tabs.executeScript(null, {code: `    
             var url = prompt()
-            var win = window.open("https://erg");
+            var win = window.open("");
             win.document.body.style.margin = '0';
             win.document.body.style.height = '100vh';
             var iframe = win.document.createElement('iframe');
